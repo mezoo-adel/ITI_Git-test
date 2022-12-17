@@ -1,0 +1,6 @@
+git branch -d branch_name          "local"
+git push origin :branch_name        "remote"
+
+
+git tag -d tagName
+git push origin --delete tagName
